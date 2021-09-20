@@ -1,0 +1,135 @@
+:root{
+    font-size: 62.5%;
+}
+.container{
+    max-width: 100rem;
+    width: 90%;
+    margin: 0 auto;
+}
+header,nav{
+    margin: -3.5rem 0rem -2rem 0rem;
+}
+#Section1{
+    margin: 4rem 0rem; 
+}
+ #Heading{
+ size: 100cm;
+ line-height: 4;  
+}
+header{
+    background-color: rgba(100, 100, 248, 0.534);
+}
+header>h1{
+    color: floralwhite;
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+}
+nav
+{
+    /* border-radius: initial; */
+    background-color: rgb(44, 44, 3);
+    line-height: 3;
+    position: sticky !important;
+    top:0px;
+    text-transform: uppercase;
+    /* margin-top: -2.3rem; */
+    z-index: 1;
+}
+nav>a{
+    color: cornsilk;
+    padding: 50px;
+    text-decoration: none;
+    font-size: 2rem;
+}
+section,footer{
+    font-size: 1.6rem;
+}
+Section>h1{
+    text-align: center;
+    color: rgb(43, 42, 42);
+    text-transform: uppercase;
+    text-decoration: underline;
+    
+}
+/* #Section_1
+{
+    background-color: rgb(255, 255, 255);
+} */
+#Section_2
+{
+    background-color: rgb(218, 206, 218);
+}
+p{
+    /* background-color: black; */
+    color: rgb(27, 0, 0);
+    padding: 0rem 15%;
+}
+#Section_2>img{
+    border-image: inherit;
+}
+img{
+    object-fit: cover;
+}
+body{
+    text-align: center;
+    margin: 0%;
+}
+.Clip_circle{
+    clip-path: circle(50% at 50% 50%);
+    height: 30rem;
+    width: 30rem;
+}
+#Section_3{
+    padding: 30px;
+    /* width: 800px; */
+    background-color:rgba(121, 52, 52, 0.479);
+}
+#Section_3>img{
+    padding: 0%;
+    /* width: 800px; */
+    background-color:rgba(121, 52, 52, 0.479);
+}
+#Section_3>span{
+    text-align: center;
+    font-size: 50px;
+    background-color: white;
+}
+footer{
+    background-color: rgba(0, 0, 0, 0.877);
+    padding: 40px;
+    flex-direction: row;
+}
+
+#box1{
+    line-height: 2;
+    float: left;
+    /* border: 1px solid white; */
+}
+#box1>a{
+    padding: 30px;
+}
+#box2{
+    float: left;
+}
+#box_fix{
+    clear: both;
+}
+footer div>a{
+    margin:1rem;
+    color: whitesmoke;
+    text-decoration: none;
+    align-items: baseline;
+}
+#linkedin:hover{
+    color: #0072b1 !important;
+}
+#instagram:hover{
+    color: #fb3958 !important;
+    background-color: inherit;
+}
+#twitter:hover{
+    color: #00acee!important;
+}
+#facebook:hover{
+    color: #4267B2 !important;
+}
