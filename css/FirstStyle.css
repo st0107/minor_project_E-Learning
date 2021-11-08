@@ -2,8 +2,8 @@
     font-size: 62.5%;
 }
 .container{
-    max-width: 100rem;
-    width: 90%;
+    /* max-width: 120rem; */
+    width: 70%;
     margin: 0 auto;
 }
 header,nav{
@@ -12,7 +12,7 @@ header,nav{
 #Section1{
     margin: 4rem 0rem; 
 }
- #Heading{
+#Heading{
  size: 100cm;
  line-height: 4;  
 }
@@ -50,6 +50,17 @@ Section>h1{
     text-transform: uppercase;
     text-decoration: underline;
     
+}
+
+#home{
+    background-color: beige;
+    font-size:x-large;
+    text-transform: capitalize;
+    padding: 2rem 0rem;
+}
+#home>.container>h1{
+    text-transform: uppercase;
+    text-decoration: underline;
 }
 /* #Section_1
 {
