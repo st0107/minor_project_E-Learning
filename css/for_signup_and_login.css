@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap');
 :root{
     font-size: 62.5%;
+    background-color: rgb(228, 227, 227);
 }
 .container{
     /* max-width: 120rem; */
@@ -37,9 +38,22 @@ nav::after{
     display: block;
     clear: both;
 }
-.login_form{
+.login_form,.signup_form{
     font-family: 'Roboto', sans-serif;
     font-size: large;
-    border: 1px solid black;
+    /* border: 1px solid black; */
+    box-shadow: 2px 5px 30px rgb(184, 184, 184);
     margin-top: 5em;
+    text-align: center;
+    background-color: white;
+}
+input{
+    width: 90%;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    font-size:medium;
+}
+
+.name>input{
+    width: 44.4%;
 }
