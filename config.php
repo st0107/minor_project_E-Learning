@@ -10,7 +10,7 @@ define('DB_NAME','login');
 $conn = mysqli_connect(DB_SERVER,DB_USERNAME,DB_PASSWORD,DB_NAME);
 
 if($conn == false){
-    dir('error : not connected')
+    dir('error : not connected');
 }
 
 ?>
