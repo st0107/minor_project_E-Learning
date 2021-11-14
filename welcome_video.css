@@ -1,0 +1,27 @@
+#slide_wrapper{
+    width: 1500px;
+    display: flex;
+    align-items: center;
+    margin: 5px;
+}
+#slide_wrapper>img{
+    width: 40px;
+}
+#slide_wrapper>img:hover{
+    width: 40px;
+    cursor: pointer;
+}
+
+#slider{
+    width: 1400px;
+    display: flex;
+    overflow: hidden;
+    flex-wrap: nowrap;
+    margin: 35px;
+}
+
+#slider>img{
+    margin: 15px;
+    width: 385px;
+}
+

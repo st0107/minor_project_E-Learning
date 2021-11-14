@@ -17,7 +17,8 @@ header,nav{
  line-height: 4;  
 }
 header{
-    background-color: rgba(100, 100, 248, 0.534);
+    /* background-color: rgba(100, 100, 248, 0.534); */
+    background-image: linear-gradient(to left top,rgb(141, 141, 250),rgb(54, 54, 253));
 }
 header>h1{
     color: floralwhite;
