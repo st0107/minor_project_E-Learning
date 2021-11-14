@@ -15,9 +15,12 @@
 #slider{
     width: 1400px;
     display: flex;
-    overflow: hidden;
+    overflow: auto;
     flex-wrap: nowrap;
     margin: 35px;
+}
+.slider::-webkit-scrollbar { 
+  display: none;  /* Safari and Chrome */
 }
 
 #slider>img{
